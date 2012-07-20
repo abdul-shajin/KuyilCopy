@@ -1,3 +1,81 @@
-#description{
-    display: none;
+html, body, div, span  {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+    font-face: Helvetica;
+	  font: inherit;
+	  vertical-align: baseline;
+}
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    background: url(lava-rock.gif);
+}
+.description{
+    border: 5px solid white;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 80px;
+    background: wheat;
+    padding: 10px;
+}
+#header{
+    background: rgba(255,255,255,0.35);
+    height: 35px;
+    display: block;
+    overflow: auto;
+    position: relative;
+}
+#header span.branding{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    top:20%;
+}
+
+#header a{
+    padding-top: 2px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    height: 15px;
+    width: 50px;
+    display: block;
+    overflow:hidden;
+    text-align: center;
+}
+#header a.twitter.aji{
+    background: #010418;
+}
+#header a.twitter.srih4ri{
+    background: #0B0017;
+}
+#header a.github{
+    background: #221900;
+    border-radius: 0 0 0 30px;
+}
+#imageframe{
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+    padding: 4px;
+    line-height: 1;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    background:  rgba(255,255,255,0.35);
+}
+#imageframe > img {
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }

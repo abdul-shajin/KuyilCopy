@@ -1,5 +1,5 @@
 var imgdiv = document.getElementById('imageframe');
-var description = document.getElementById('description');
+var description = document.getElementById('js-description');
 var getImageLink = function () {
   var query = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
   var params = query[0].split('=');
