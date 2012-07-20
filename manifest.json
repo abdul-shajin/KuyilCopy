@@ -1,0 +1,10 @@
+{
+  "name": "Kuyil Copy",
+  "description": "KuyilCopy is a simple way to show others images you liked.",
+  "version": "0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "manifest_version": 2
+}
