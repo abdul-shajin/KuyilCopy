@@ -1,7 +1,7 @@
 // Copyright (c) 2010 The A-s Brothers. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-var siteUrl = "http://localhost/kuyilCopy/"
+var siteUrl = "http://codesavvy.github.com/KuyilCopy?link="
 var key = 'AIzaSyDT_4bGAB2X_okHf9WskEmHSlnkJqTFeMk'
 var url = 'https://www.googleapis.com/urlshortener/v1/url';
 var logDisp = function (msg) {
